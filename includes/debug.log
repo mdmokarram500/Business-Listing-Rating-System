@@ -1,0 +1,15 @@
+2026-02-23 12:01:04 - Request: {"action":"fetch_businesses"}
+2026-02-23 12:07:38 - Request: {"action":"fetch_businesses"}
+2026-02-23 12:08:04 - Request: {"action":"save_rating","business_id":"8","r_name":"Md Mokarram Hashmi","r_email":"mdmokarram500@gmail.com","r_phone":"09525665041","rating_value":"4.5"}
+2026-02-23 12:08:06 - Request: {"action":"fetch_businesses"}
+2026-02-23 12:08:11 - Request: {"action":"fetch_businesses"}
+2026-02-26 13:07:10 - Request: {"action":"fetch_businesses"}
+2026-02-26 13:08:27 - Request: {"action":"add_business","business_id":"","name":"Test Business 3","address":"Doranda Darzee Mohalla\r\nDoranda","phone":"095256034567","email":"admin@gmail.com"}
+2026-02-26 13:08:27 - Request: {"action":"fetch_businesses"}
+2026-02-26 13:08:47 - Request: {"action":"save_rating","business_id":"9","r_name":"Md Mokarram Hashmi","r_email":"mdmokarram500@gmail.com","r_phone":"095456701041","rating_value":"4.5"}
+2026-02-26 13:08:49 - Request: {"action":"fetch_businesses"}
+2026-02-26 13:08:52 - Request: {"action":"fetch_businesses"}
+2026-02-26 13:08:55 - Request: {"action":"get_business","id":"9"}
+2026-02-26 13:08:59 - Request: {"action":"edit_business","business_id":"9","name":"Test Business 55","address":"Doranda Darzee Mohalla\r\nDoranda","phone":"095256034567","email":"admin@gmail.com"}
+2026-02-26 13:08:59 - Request: {"action":"fetch_businesses"}
+2026-02-26 13:09:05 - Request: {"action":"delete_business","id":"9"}

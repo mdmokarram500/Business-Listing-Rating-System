@@ -1,0 +1,197 @@
+        :root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --secondary: #64748b;
+            --bg-color: #f8fafc;
+            --surface: #ffffff;
+            --surface-border: #e2e8f0;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            min-height: 100vh;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        .modal-title {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+        }
+
+        .container {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        /* Simple Card */
+        .simple-card {
+            background: var(--surface);
+            border: 1px solid var(--surface-border);
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            padding: 1.5rem;
+        }
+
+        .simple-modal {
+            background: var(--surface);
+            border: none;
+            border-radius: 0.75rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            color: var(--text-main);
+        }
+
+        .modal-header,
+        .modal-footer {
+            border-color: var(--surface-border);
+        }
+
+        /* Buttons */
+        .btn-primary {
+            background-color: var(--primary);
+            border: none;
+            font-weight: 500;
+            border-radius: 0.5rem;
+            padding: 0.5rem 1.2rem;
+            transition: all 0.2s;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-hover);
+        }
+
+        .btn-warning {
+            background-color: var(--warning);
+            border: none;
+            color: #fff;
+            font-weight: 500;
+        }
+
+        .btn-warning:hover {
+            background-color: #d97706;
+            color: #fff;
+        }
+
+        /* Forms */
+        .form-control,
+        .form-control:focus {
+            background-color: #f8fafc;
+            border: 1px solid var(--surface-border);
+            color: var(--text-main);
+            border-radius: 0.5rem;
+            box-shadow: none;
+        }
+
+        .form-label {
+            color: var(--text-main);
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        /* Table Design */
+        .table {
+            color: var(--text-main);
+            margin-bottom: 0;
+            vertical-align: middle;
+        }
+
+        .table thead th {
+            font-family: 'Outfit', sans-serif;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            border-bottom: 2px solid var(--surface-border);
+            padding-bottom: 1rem;
+            background: transparent;
+        }
+
+        .table tbody tr {
+            transition: all 0.2s;
+            border-bottom: 1px solid var(--surface-border);
+        }
+
+        .table tbody tr:hover {
+            background-color: #f1f5f9;
+        }
+
+        .table> :not(caption)>*>* {
+            background-color: transparent !important;
+            border-bottom-color: var(--surface-border);
+            padding: 1rem 0.5rem;
+        }
+
+        /* Badge/ID */
+        .b-id {
+            background-color: #f1f5f9;
+            color: var(--text-muted);
+            padding: 0.2rem 0.6rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-family: monospace;
+            border: 1px solid var(--surface-border);
+        }
+
+        /* Ratings */
+        .rating-stars {
+            display: inline-block;
+            background-color: #f8fafc;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            border: 1px solid var(--surface-border);
+        }
+
+        .raty-star {
+            cursor: pointer;
+            font-size: 2.2rem !important;
+            margin: 0 4px;
+            transition: transform 0.2s;
+            color: #cbd5e1;
+        }
+
+        .raty-star:hover {
+            transform: scale(1.1);
+        }
+
+        .btn-sm {
+            padding: 0.3rem 0.6rem;
+            font-size: 0.875rem;
+            border-radius: 0.3rem;
+        }
+
+        #rating_hint {
+            font-size: 1.1rem;
+            margin-top: 10px;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+        }
+
+        .avg-rating {
+            display: inline-flex;
+            gap: 2px;
+        }
+
+        .avg-rating .raty-star {
+            font-size: 1.1rem !important;
+            margin: 0;
+            cursor: default;
+        }
+
+        .rating-score-badge {
+            background-color: #fef3c7;
+            color: #d97706;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border: 1px solid #fde68a;
+        }
